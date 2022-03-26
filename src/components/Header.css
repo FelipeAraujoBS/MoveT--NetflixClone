@@ -1,0 +1,32 @@
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    transition: all ease 0.3s;
+}
+header.black{
+    background: #141414;
+}
+.header--logo{
+    height: 170px;
+    width: 170px;
+}
+.header--logo img{
+    height: 100%;
+    width: 100%;
+}
+.header--profile{
+    height: 45px;
+    padding: 0 30px;
+}
+.header--profile img{
+    height: 100%;
+    border-radius: 3px;
+}
